@@ -1,12 +1,16 @@
+const HelloWorld = () =>{
+    return React.createElement('p',{},"Hello Another.js")
+};
+
+const AnotherHelloWordl = () =>{
+    return React.createElement('h2',{},"Anoter Hellow, Another.js");
+};
+
 // ---------- INstall REACT & REACTDOM Using CDN-----------
 // console.log("Hello");
 // console.log("React ==> ",React);
 // console.log("React DOM ==> ",ReactDOM);
 
-
-
-import { HelloWorld } from "./another";
-import { AnotherHelloWordl } from "./another";
 //App without JSX👇;
 const App =  React.createElement(
     'h1',
