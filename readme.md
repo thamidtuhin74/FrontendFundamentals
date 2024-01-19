@@ -24,3 +24,17 @@ this is called Client side rendering.
 - Local: ```npm install rollup --save-dev```
 - run in cmd : ```rollup main.js --file bundle.js --format esm```
 - change HTML in script src ```./main.js``` to ```./bundle.js```
+
+- create ```public``` folder and move ```index.js``` to public folder
+- create ```src``` folder and move ```main.js``` & ```another.js```
+- crete ```rollup.config.mjs``` file & add this code
+    ```
+    export default{
+        input: 'src/main.js',
+        output: {
+            file: 'public/bundle.js',
+            format: 'esm',
+        },
+    };
+    ```
+- run in cmd ``` rollup -c```
