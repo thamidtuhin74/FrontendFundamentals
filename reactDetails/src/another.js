@@ -3,5 +3,5 @@ export const HelloWorld = () =>{
 }
 
 export const AnotherHelloWordl = () =>{
-    return React.createElement('h2',{},"Anoter Hellow, Another.js");
+    return React.createElement('h2',{},"Anoter Hello World, Another.js ");
 }

@@ -37,4 +37,5 @@ this is called Client side rendering.
         },
     };
     ```
-- run in cmd ``` rollup -c```
+- run in cmd ``` rollup -c``` - this will manually bundle
+- run in cmd ``` rollup -c -w``` - this will automatically bundle when there is any change
