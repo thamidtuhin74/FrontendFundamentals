@@ -20,7 +20,7 @@ this is called Client side rendering.
 
 ### Install Rollup
 
-- Global: <npm install --global rollup>
-- Local: <npm install rollup --save-dev>
-- run in cmd : <rollup main.js --file bundle.js --format esm>
-- change HTML in script src "./main.js" to "./bundle.js"
+- Global: ```npm install --global rollup```
+- Local: ```npm install rollup --save-dev```
+- run in cmd : ```rollup main.js --file bundle.js --format esm```
+- change HTML in script src ```./main.js``` to ```./bundle.js```
