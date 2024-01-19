@@ -1,4 +1,4 @@
-# React Fundamentals
+# React Details
 
 ## Install React -  Using CDN ("https://unpkg.com/react@18.2.0/umd/react.production.min.js")
 
