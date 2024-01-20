@@ -81,7 +81,7 @@ plugins:[
     ],
 ```
 
-- install [server]() to serve the application to localhost
+- install [server](https://www.npmjs.com/package/serve) to serve the application to localhost
 - configure package.json 
 - 
 ``` 
