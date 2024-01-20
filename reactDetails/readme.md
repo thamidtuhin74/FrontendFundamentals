@@ -72,7 +72,8 @@ plugins:[nodeResolve(
 ### then install rollup pluing for bable
 
 - Install [bable](https://github.com/rollup/plugins/tree/master/packages/babel) ```npm install @rollup/plugin-babel --save-dev```
-- ```
+- 
+```
 plugins:[
     ---,
     babel({ babelHelpers: 'bundled' , presets: ['@babel/presets-react'], extensions: [".js",'.jsx']}),
@@ -82,10 +83,11 @@ plugins:[
 
 - install [server]() to serve the application to localhost
 - configure package.json 
-```
-"scripts": {
-    "dev": "serve public/",
-    "build": "rollup -c -w"
+- 
+``` 
+scripts: {
+"dev": "serve public/",
+"build": "rollup -c -w"
 },
 ```
 
@@ -94,3 +96,4 @@ plugins:[
 
 # Final Output:
 ![Final Output](./src/outputimg.png)
+
