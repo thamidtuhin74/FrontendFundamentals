@@ -80,3 +80,17 @@ plugins:[
     ],
 ```
 
+- install [server]() to serve the application to localhost
+- configure package.json 
+```
+"scripts": {
+    "dev": "serve public/",
+    "build": "rollup -c -w"
+},
+```
+
+- run cmd ```npm run build```
+- run cmd ```npm run dev```
+
+# Final Output:
+![Final Output](./src/outputimg.png)

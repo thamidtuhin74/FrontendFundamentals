@@ -4,12 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serve public/",
+    "build": "rollup -c -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^4.9.5"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
   }
 }
